@@ -1,0 +1,39 @@
+.navBg {
+    display: block;
+}
+
+.glassBlue {
+    background: linear-gradient(135deg, rgba(23, 23, 31, 0.466), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.boton {
+    color: #FBB80F!important;
+    font-size: 20px;
+    font-weight: 500 !important;
+    /* padding: 0.5em 1.2em; */
+    background: rgba(0,0,0,0);
+    border-bottom: 2px solid;
+    border-radius: 0px;
+    border-color: rgba(141, 0, 0, 0);
+    transition: all 1s ease;
+    position: relative;
+  }
+  .boton:hover {
+    background: rgba(0,0,0,0);
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: #eee;
+    transition: all 1s ease;
+  }
+
+  @media all and (min-width: 200px) and (max-width: 367px) {
+    .logoImg {
+      width: 160px;
+    }
+  }
+

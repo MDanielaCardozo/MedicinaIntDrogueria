@@ -12,12 +12,12 @@
 }
 
 .boton {
-    color: #FBB80F!important;
+    color: #004AAD!important;
     font-size: 20px;
     font-weight: 500 !important;
     /* padding: 0.5em 1.2em; */
     background: rgba(0,0,0,0);
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
     border-radius: 0px;
     border-color: rgba(141, 0, 0, 0);
     transition: all 1s ease;
@@ -25,7 +25,7 @@
   }
   .boton:hover {
     background: rgba(0,0,0,0);
-    border: 3px solid;
+    border: 1px solid;
     border-radius: 10px;
     border-color: #eee;
     transition: all 1s ease;

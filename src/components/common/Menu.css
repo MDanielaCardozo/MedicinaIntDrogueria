@@ -1,13 +1,9 @@
-.navBg {
-    display: block;
-}
-
 .glassBlue {
-    background: linear-gradient(135deg, rgba(23, 23, 31, 0.466), rgba(255, 255, 255, 0));
+    background: linear-gradient(85deg, rgb(0, 0, 0), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* border: 1px solid rgba(255, 255, 255, 0.18); */
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 

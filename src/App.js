@@ -8,6 +8,7 @@ import Distribucion from './components/views/Distribucion';
 import Contacto from './components/views/Contacto';
 import Error from './components/views/Error';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from './components/common/Footer';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route exact path='/contacto' element={<Contacto></Contacto>}></Route>
         <Route exact path='*' element={<Error></Error>}></Route>
       </Routes>
+      <Footer></Footer>
       </BrowserRouter>
     </div>
   );

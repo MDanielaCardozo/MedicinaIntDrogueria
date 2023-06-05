@@ -17,6 +17,7 @@ function CollapsibleExample() {
       expand="lg"
       variant="light"
       className="glassBlue navBg"
+      fixed="top"
     >
       <Container>
         <Navbar.Brand as={Link} onClick={() => setExpanded(false)} to="/">

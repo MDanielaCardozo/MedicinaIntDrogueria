@@ -29,7 +29,7 @@ const Home = () => {
       </section>
       <section className="container py-5">
         <div className="containerSect">
-            <div className="valores">
+            <div className="valores p-3">
             <h2>Nuestros Valores</h2>
             <hr />
             </div>

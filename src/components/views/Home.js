@@ -1,6 +1,12 @@
 import React from "react";
 import "./Home.css";
-import { Carousel } from "react-bootstrap";
+import { Carousel, Col, Row } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHandshake,
+  faRoute,
+  faShuffle,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
@@ -39,6 +45,47 @@ const Home = () => {
           <div className="valores p-3">
             <h2>Nuestros Valores</h2>
             <hr />
+            <Row className="w-100 mt-3">
+              <Col sm={12} md={4} lg={4}>
+                <div className="cardInfoUno w-100 p-2">
+                  <div className="icono">
+                    <FontAwesomeIcon icon={faHandshake} className="icon" />
+                  </div>
+                  <h3>Compromiso</h3>
+                  <p className="m-3">
+                    Con las nuevas ideas, pero manteniendo los mismos ideales.
+                    Estamos profundamente comprometidos con la innovación y el
+                    crecimiento permanente.
+                  </p>
+                </div>
+              </Col>
+              <Col sm={12} md={4} lg={4}>
+                <div className="cardInfoDos w-100 p-2">
+                  <div className="icono">
+                    <FontAwesomeIcon icon={faShuffle} className="iconDos" />
+                  </div>
+                  <h3>Flexibilidad</h3>
+                  <p className="m-3">
+                    Nos adaptamos a las diversas circunstancias que se nos
+                    presentan dando respuestas ágiles, porque tomamos los
+                    cambios como nuevos desafíos por alcanzar.
+                  </p>
+                </div>
+              </Col>
+              <Col sm={12} md={4} lg={4}>
+                <div className="cardInfoTres w-100 p-2">
+                  <div className="icono">
+                    <FontAwesomeIcon icon={faRoute} className="iconTres" />
+                  </div>
+                  <h3>Cercanía</h3>
+                  <p className="m-3">
+                    Constante para llegar más lejos siempre con nuestros
+                    clientes y proovedores, con el objetivo de ir mejorando
+                    continuamente y ser siempre los primeros.
+                  </p>
+                </div>
+              </Col>
+            </Row>
           </div>
         </div>
       </section>

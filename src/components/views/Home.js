@@ -8,19 +8,19 @@ const Home = () => {
       <section>
         <Carousel>
           <Carousel.Item className="carouselUno">
-            <Carousel.Caption>
+            <Carousel.Caption className="bgCarousel">
               <h3 className="textCarousel">MEDICINA INTEGRAL</h3>
               <p className="textCarousel">Vanguardia en tecnología aplicada a la logística.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item className="carouselDos">
-          <Carousel.Caption>
+          <Carousel.Caption className="bgCarousel">
               <h3 className="textCarousel">MEDICINA INTEGRAL</h3>
               <p className="textCarousel">Más y mejores soluciones a nuestros clientes y proveedores.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item className="carouselTres">
-          <Carousel.Caption>
+          <Carousel.Caption className="bgCarousel">
               <h3 className="textCarousel">MEDICINA INTEGRAL</h3>
               <p className="textCarousel">Somos la distribuidora con respaldo y aval de seguridad para nuestros proveedores y clientes</p>
             </Carousel.Caption>
@@ -28,9 +28,12 @@ const Home = () => {
         </Carousel>
       </section>
       <section className="container py-5">
-        <div className="valores">
+        <div className="containerSect">
+            <div className="valores">
             <h2>Nuestros Valores</h2>
             <hr />
+            </div>
+            
         </div>
       </section>
     </main>

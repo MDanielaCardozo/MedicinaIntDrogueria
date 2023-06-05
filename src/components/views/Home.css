@@ -13,7 +13,13 @@
 
 .textCarousel {
     color: #004AAD;
+    font-weight: 600;
+    /* background-color: rgba(0, 0, 0, 0.3); */
 }
+
+/* .bgCarousel {
+    background-color: rgba(0, 0, 0, 0.3);
+} */
 
 .carouselUno:hover {
     transform: scale(1.1);
@@ -47,10 +53,20 @@
     transition: 800ms;
 }
 
-.valores {
+.containerSect {
     color: #004AAD;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transform: skew(0deg, -4.7deg);
 }
 
-.valores h2 {
+.containerSect h2 {
     font-weight: 600;
+}
+
+.containerSect .valores {
+    transform: skew(0deg, 4.7deg);
+    text-align: start;
 }

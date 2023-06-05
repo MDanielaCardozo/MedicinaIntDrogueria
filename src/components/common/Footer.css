@@ -1,12 +1,17 @@
 .subrayado {
-    text-decoration: none;
-  }
-  
-  .footerLetra {
-    font-family: "Montserrat", sans-serif;
-    color: whitesmoke;
-  }
-  
-  .footerLetra a {
-    font-weight: 300;
-  } 
+  text-decoration: none;
+}
+
+.footerLetra {
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+}
+
+.footerLetra a {
+  font-weight: 300;
+  color: #FBB80F;
+}
+
+.footerLetra h6 {
+    color: #FBB80F;
+}

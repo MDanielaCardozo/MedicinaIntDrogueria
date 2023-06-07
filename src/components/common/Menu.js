@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../../img/logoMedicina-Integral.png";
+import Logo from "../../img/logoNewMedIntegral.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import "./Menu.css";
@@ -21,7 +21,7 @@ function CollapsibleExample() {
     >
       <Container>
         <Navbar.Brand as={Link} onClick={() => setExpanded(false)} to="/">
-          <img src={Logo} alt="Logo Medicina Integral" width="225px" height="auto" className="logoImg"/>
+          <img src={Logo} alt="Logo Medicina Integral" width="275px" height="auto" className="logoImg"/>
         </Navbar.Brand>
         <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">

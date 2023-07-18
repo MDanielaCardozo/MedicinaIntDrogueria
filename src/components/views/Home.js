@@ -10,7 +10,7 @@ import {
 
 const Home = () => {
   return (
-    <main>
+    <main className="bgSection">
       <section>
         <Carousel>
           <Carousel.Item className="carouselUno">
@@ -40,9 +40,9 @@ const Home = () => {
           </Carousel.Item>
         </Carousel>
       </section>
-      <section className="container py-5 my-3">
+      <section className="container py-5 mt-3">
         <div className="containerSect mb-2">
-          <div className="valores p-3">
+          <div className="p-3">
             <h2>Nuestros Valores</h2>
             <hr />
             <Row className="w-100 mt-3">

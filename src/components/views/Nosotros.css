@@ -1,4 +1,10 @@
-.quienes {
-    font-weight: 600;
+.portadaNosotros {
+  background: url(../../img/portadaMedNos.jpeg) no-repeat bottom center/cover;
+  width: 100%;
+  height: 400px;
+}
+
+.nosotros {
+  font-weight: 600;
   color: #004AAD;
 }

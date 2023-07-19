@@ -1,10 +1,37 @@
 .portadaNosotros {
-  background: url(../../img/portadaMedNos.jpeg) no-repeat bottom center/cover;
+  background: url("../../img/portadaMedNos.jpeg") no-repeat bottom center/cover;
   width: 100%;
   height: 400px;
 }
 
 .nosotros {
-  font-weight: 600;
-  color: #004AAD;
+  /* font-weight: 600; */
+  color: #004aad;
 }
+
+.bgMision {
+  background-color: #004aad;
+  width: 100%;
+  height: 600px;
+}
+
+.imgMision {
+  position: relative;
+  background-color: rgba(16, 12, 236, 0.37);
+  width: 100%;
+  height: 600px;
+  color: #fff;
+}
+
+.imgMision ::before {
+  content: "";
+  background: url("../../img/misionMedicinaInt.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  filter: opacity(25%);
+}
+
+
+
+

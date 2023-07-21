@@ -9,6 +9,11 @@
   color: #004aad;
 }
 
+.textPortada {
+  color: #fff;
+  font-weight: 600;
+}
+
 .cardInfoNosotros {
   width: 330px;
   height: auto;

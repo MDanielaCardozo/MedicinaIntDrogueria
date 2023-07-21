@@ -89,6 +89,54 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <article className="  ">
+        <div className="">
+          <Row>
+            <Col sm={12} md={6} lg={6} className="g-0">
+              <div className="bgMision d-flex justify-content-center align-items-center">
+                <h3 className="text-white fs-1">Misión</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={6} lg={6} className="g-0">
+              <div className="cardMision">
+                <div className="cardContent">
+                  <p className="card-body">
+                    COMO ORGANIZACIÓN NOS INTERESA GENERAR UN AMBIENTE CALIDO
+                    PARA LA OPERACIÓN DE LOS PROCESOS QUE SE CARACTERICE POR LA
+                    COMUNICACIÓN , LA CONFIANZA, LA HONESTIDAD, LA
+                    RESPONSABILIDAD PERSONALY EL RESPETO, CONVENCIDOS QUE
+                    CUALQUIER COMPORTAMIENTO QUE SE DERIVE DE ESTOS VALORES
+                    CONTRIBUIRA AL CLIMA IDEAL PARA EL CRECIMIENTO PERSONAL DE
+                    CADA INTEGRANTE DE LA EMPRESA.
+                  </p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col sm={12} md={6} lg={6} className="g-0">
+              <div className="cardVision">
+                <div className="cardContent">
+                  <p className="card-body">
+                    INTENTAMOS GENERAR UN AMBIENTE DE RESPETO MUTUO, DE DIALOGO
+                    CORDIAL, INCENTIVANDO EL COMPROMISO , LA PARTICIPACION Y
+                    CREANDO UN ESPACIO DE REALIZACION PERSONAL PARA QUIENES LA
+                    CONFORMAN. PROCURAMOS HACER DE NUESTRA ACTIVIDAD UN NEGOCIO
+                    RENTABLE QUE NOS PERMITA SEGUIR CRECIENDO PQ CREEMOS QUE DE
+                    ESTA MANERA CONTRUBUIMOS AL DESARROLLO DEL SISTEMA DE SALUD
+                  
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col sm={12} md={6} lg={6} className="g-0">
+              <div className="bgMision d-flex justify-content-center align-items-center">
+                <h3 className="text-white fs-1">Visión</h3>
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </article>
     </main>
   );
 };

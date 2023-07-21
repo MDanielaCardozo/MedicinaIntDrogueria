@@ -4,10 +4,7 @@ import { Col, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCrutch,
-  faHandshake,
   faPills,
-  faRoute,
-  faShuffle,
   faSyringe,
   faVial,
 } from "@fortawesome/free-solid-svg-icons";
@@ -56,7 +53,7 @@ const Nosotros = () => {
               <br /> Se encuentra entre los proyectos ampliar el espacio físico
               de almacenamiento a fin de seguir mejorando en lo que respecta a
               las tareas de logística y también la de incursionar en nuevas
-              provincia
+              provincias.
             </p>
           </div>
         </div>
@@ -123,29 +120,6 @@ const Nosotros = () => {
           </Row>
         </div>
       </section>
-      {/* <section className="container py-5">
-        <div className="">
-          <Row>
-            <Col sm={12} md={6} lg={6} className="g-0">
-              <div className="bgMision d-flex justify-content-center align-items-center">
-                <h3 className="text-white fs-1">Misión</h3>
-              </div>
-            </Col>
-            <Col sm={12} md={6} lg={6} className="g-0">
-              <div className="imgMision nosotros">
-                <p className="w-50">
-                  COMO ORGANIZACIÓN NOS INTERESA GENERAR UN AMBIENTE CALIDO PARA
-                  LA OPERACIÓN DE LOS PROCESOS QUE SE CARACTERICE POR LA
-                  COMUNICACIÓN , LA CONFIANZA, LA HONESTIDAD, LA RESPOSABILIDAD
-                  PERSONALY EL RESPETO, CONVENCIDOS QUE CUALQUIER COMPORTAMIENTO
-                  QUE SE DERIVE DE ESTOS VALORES COTRIBUIRA AL CLIMA IDEAL PARA
-                  EL CRECIMIENTO PERSONAL DE CADA INTEGRANTE DE LA EMPRESA
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </div>
-      </section> */}
     </div>
   );
 };

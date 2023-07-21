@@ -164,37 +164,4 @@
   padding: 21px;
 }
 
-.bgMision {
-  max-height: 500px;
-  background-color: hsla(236, 73%, 80%, 0.932);
-  width: 100%;
-  height: 584px;
-}
 
-.cardMision {
-  font-weight: 400;
-  max-height: 500px;
-  color: #fff;
-  background-image: url("../../img/misionMedicinaInt.jpg");
-  background-size: cover;
-  /* padding: 3rem 1rem 1rem; */
-}
-
-.cardVision {
-  max-height: 500px;
-  color: #fff;
-  background-image: url("../../img/medIntVision.jpeg");
-  background-size: cover;
-}
-
-.cardContent {
-  max-height: 500px;
-  padding: 21rem 1rem 1rem;
-  background: linear-gradient(
-    hsla(236, 96%, 32%, 0.192),
-    hsla(236, 96%, 32%, 0.39),
-    hsla(236, 96%, 32%, 0.596),
-    hsla(236, 96%, 32%, 0.842),
-    hsla(236, 92%, 30%, 0.945)
-  );
-}

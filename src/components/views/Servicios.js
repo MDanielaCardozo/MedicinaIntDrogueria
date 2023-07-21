@@ -1,5 +1,6 @@
-import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import React from "react";
+import "../views/Servicios.css";
+import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCrutch,
@@ -9,11 +10,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Servicios = () => {
-    return (
-        <div className='bgSection'>
-            <section className="portadaNosotros d-flex justify-content-end align-items-end p-3">
-        <div className="textPortada">
-          <p>
+  return (
+    <div className="bgSection">
+      <section className="portadaServicios d-flex justify-content-end align-items-end p-3">
+        <div className="contentPortada">
+          <p className="textPortada">
             DROGUERÍA MEDICINA INTEGRAL SRL llevamos más de 30 años
             <br />
             acompañando al sector de la salud. Somos un eslabón
@@ -22,7 +23,7 @@ const Servicios = () => {
           </p>
         </div>
       </section>
-      <section className="container nosotros">
+      <section className="container nosotros mt-5">
         <div className="p-3">
           <h2>Nuestra empresa comercializa</h2>
           <hr />
@@ -84,8 +85,8 @@ const Servicios = () => {
           </Row>
         </div>
       </section>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Servicios;

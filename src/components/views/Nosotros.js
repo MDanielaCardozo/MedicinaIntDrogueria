@@ -6,8 +6,8 @@ const Nosotros = () => {
   return (
     <div className="bgSection">
       <section className="portadaNosotros d-flex justify-content-end align-items-end p-3">
-        <div className="textPortada">
-          <p>
+        <div className="contentPortada">
+          <p className="textPortada">
             DROGUERÍA MEDICINA INTEGRAL SRL llevamos más de 30 años
             <br />
             acompañando al sector de la salud. Somos un eslabón

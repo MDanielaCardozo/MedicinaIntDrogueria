@@ -3,24 +3,37 @@
 }
 
 .boton {
-    color: #eee!important;
-    font-size: 20px;
-    font-weight: 500 !important;
-    /* padding: 0.5em 1.2em; */
-    background: rgba(0,0,0,0);
-    border-bottom: 1px solid;
-    border-radius: 0px;
-    border-color: rgba(141, 0, 0, 0);
-    transition: all 1s ease;
     position: relative;
+    text-decoration: none;
+    color: #eee !important;
   }
+
+  .boton::after {
+    content: "";
+    position: absolute;
+    background-color: #eee;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.5s;
+  }
+
   .boton:hover {
+    color: #eee;
+  }
+
+  .boton:hover::after{
+    width: 100%;
+  }
+
+  /* .boton:hover {
     background: rgba(0,0,0,0);
     border: 1px solid;
     border-radius: 10px;
     border-color: #eee;
     transition: all 1s ease;
-  }
+  } */
 
   @media all and (min-width: 200px) and (max-width: 367px) {
     .logoImg {

@@ -40,6 +40,50 @@ const Home = () => {
           </Carousel.Item>
         </Carousel>
       </section>
+      <section className="container my-4">
+        <div className="iconosHome">
+          <Row className="py-4">
+            <Col sm={12} md={3} lg={3}>
+              <div className="w-100 h-100 d-flex justify-content-center align-items-center">
+                <h3 id="tituloDrog">DROGUERIA LIDER</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={3} lg={2}>
+              <div className="cardInfo w-100 p-2">
+                <div className="icono">
+                  <FontAwesomeIcon icon={faHandshake} className="icon" />
+                </div>
+                <h3 className="text-white">Nosotros</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={3} lg={2}>
+              <div className="cardInfo w-100 p-2">
+                <div className="icono">
+                  <FontAwesomeIcon icon={faHandshake} className="icon" />
+                </div>
+                <h3 className="text-white">Servicios</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={3} lg={2}>
+              <div className="cardInfo w-100 p-2">
+                <div className="icono">
+                  <FontAwesomeIcon icon={faHandshake} className="icon" />
+                </div>
+                <h3 className="text-white">Distribución</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={3} lg={2}>
+              <div className="cardInfo w-100 p-2">
+                <div className="icono">
+                  <FontAwesomeIcon icon={faHandshake} className="icon" />
+                </div>
+                <h3 className="text-white">Contacto</h3>
+              </div>
+            </Col>
+            
+          </Row>
+        </div>
+      </section>
       <section className="container py-5 mt-3">
         <div className="containerSect mb-2">
           <div className="p-3">

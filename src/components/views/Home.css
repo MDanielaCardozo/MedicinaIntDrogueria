@@ -60,6 +60,31 @@
   transition: 1800ms;
 }
 
+#tituloDrog {
+  color: #004aad;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+}
+
+.cardInfo {
+  width: 330px;
+  height: auto;
+  margin: 5px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  color: #004aad;
+  text-align: center;
+  background: rgba(10, 8, 151, 0.219);
+  animation: mySplice;
+  animation-play-state: running;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-duration: 1900ms;
+}
+
 .containerSect h2 {
   font-weight: 600;
   color: #004aad;

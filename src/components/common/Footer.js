@@ -7,14 +7,14 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import Logo from "../../img/MedIntLogo-removeb.png";
+import Logo from "../../img/MedIntFooter.png";
 import "../common/Footer.css";
 
 const Footer = () => {
   return (
     <MDBFooter
-      bgColor="dark"
-      className="text-center text-lg-start footerLetra"
+
+      className="text-center text-lg-start footerLetra" style={{ backgroundColor: '#caced1' }}
     >
       <section className="pt-1">
         <MDBContainer className="text-center text-md-start mt-5">
@@ -24,9 +24,9 @@ const Footer = () => {
                 <img
                   alt="Logo Cámara de Droguerías de Tucumán"
                   src={Logo}
-                  width="390px"
+                  // width="100%"
                   height="auto"
-                  className="my-0 py-0 ps-auto logoImg"
+                  className=" logoFooter w-100"
                 />
               </Link>
             </MDBCol>

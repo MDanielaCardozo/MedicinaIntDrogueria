@@ -42,9 +42,11 @@ const Distribucion = () => {
                 </div>
                 <h3>Logistica</h3>
                 <p className="m-3">
-                  Con las nuevas ideas, pero manteniendo los mismos ideales.
-                  Estamos profundamente comprometidos con la innovación y el
-                  crecimiento permanente.
+                  Para evitar interrupciones en los tratamientos de los
+                  pacientes, contamos con un amplio stock para la provisión
+                  inmediata de medicamentos para terapias especiales y un
+                  eficiente sistema de distribución que garantiza respuestas a
+                  la medida de cada situación.
                 </p>
               </div>
             </Col>
@@ -55,9 +57,11 @@ const Distribucion = () => {
                 </div>
                 <h3>Trazabilidad</h3>
                 <p className="m-3">
-                  Nos adaptamos a las diversas circunstancias que se nos
-                  presentan dando respuestas ágiles, porque tomamos los cambios
-                  como nuevos desafíos por alcanzar.
+                  Tenemos un Sistema propio de Trazabilidad.Cada una de las
+                  operaciones realizadas en Droguería Medicina Integral srl, se
+                  encuentran bajo procesos certificados y trazables, de esta
+                  forma garantizamos la calidad y seguridad en todo el proceso
+                  de distribución.
                 </p>
               </div>
             </Col>
@@ -68,9 +72,11 @@ const Distribucion = () => {
                 </div>
                 <h3>Tecnología</h3>
                 <p className="m-3">
-                  Constante para llegar más lejos siempre con nuestros clientes
-                  y proovedores, con el objetivo de ir mejorando continuamente y
-                  ser siempre los primeros.
+                  La localización inmediata de los medicamentos que por
+                  diferentes motivos hubieran de ser retirados
+                  o impedidos de que lleguen al circuito asistencial o
+                  comercial. Tenemos una capacidad de almacenamiento con los más
+                  altos estándares de calidad internacional.
                 </p>
               </div>
             </Col>

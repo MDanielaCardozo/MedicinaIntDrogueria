@@ -4,14 +4,22 @@
 
 .footerLetra {
   font-family: "Montserrat", sans-serif;
-  color: whitesmoke;
+  color: #004aad;
 }
 
 .footerLetra a {
-  font-weight: 300;
-  color: #eee;
+  font-weight: 400;
+  color: #004aad;
 }
 
 .footerLetra h6 {
-    color: #eee;
+    color: #004aad;
 }
+
+/* @media all and (min-width: 200px) and (max-width: 375px) {
+  .logoFooter {
+    width: 300px;
+  }
+} */
+
+

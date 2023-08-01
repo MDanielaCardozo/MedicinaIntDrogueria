@@ -77,12 +77,18 @@
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
   color: #004aad;
   text-align: center;
-  background: rgba(10, 8, 151, 0.219);
+  background: rgba(7, 5, 151, 0.568);
   animation: mySplice;
   animation-play-state: running;
   animation-iteration-count: 1;
   animation-delay: 0s;
   animation-duration: 1900ms;
+}
+
+.icon {
+  color: #004aad;
+  font-size: 45px;
+  padding: 21px;
 }
 
 .containerSect h2 {
@@ -133,7 +139,7 @@
   transition: all 0.9s ease;
 }
 
-.icon {
+.iconUno {
   color: #ff51a4;
   font-size: 45px;
   padding: 21px;

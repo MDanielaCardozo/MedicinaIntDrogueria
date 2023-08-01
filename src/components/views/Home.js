@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import { Carousel, Col, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faEnvelopeOpenText,
+  faFlaskVial,
   faHandshake,
+  faPeopleGroup,
   faRoute,
   faShuffle,
+  faTruckFast,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+
   return (
     <main className="bgSection">
       <section>
@@ -40,7 +50,7 @@ const Home = () => {
           </Carousel.Item>
         </Carousel>
       </section>
-      <section className="container my-4">
+      <section className="container my-3">
         <div className="iconosHome">
           <Row className="py-4">
             <Col sm={12} md={3} lg={3}>
@@ -50,37 +60,47 @@ const Home = () => {
             </Col>
             <Col sm={12} md={3} lg={2}>
               <div className="cardInfo w-100 p-2">
-                <div className="icono">
-                  <FontAwesomeIcon icon={faHandshake} className="icon" />
-                </div>
-                <h3 className="text-white">Nosotros</h3>
+                <Link to={"/nosotros"}>
+                  <div className="icono">
+                    <FontAwesomeIcon icon={faPeopleGroup} className="icon" />
+                  </div>
+                </Link>
+                <h6 className="text-white">NOSOTROS</h6>
               </div>
             </Col>
             <Col sm={12} md={3} lg={2}>
               <div className="cardInfo w-100 p-2">
-                <div className="icono">
-                  <FontAwesomeIcon icon={faHandshake} className="icon" />
-                </div>
-                <h3 className="text-white">Servicios</h3>
+                <Link to={"/servicios"}>
+                  <div className="icono">
+                    <FontAwesomeIcon icon={faFlaskVial} className="icon" />
+                  </div>
+                </Link>
+                <h6 className="text-white">SERVICIOS</h6>
               </div>
             </Col>
             <Col sm={12} md={3} lg={2}>
               <div className="cardInfo w-100 p-2">
-                <div className="icono">
-                  <FontAwesomeIcon icon={faHandshake} className="icon" />
-                </div>
-                <h3 className="text-white">Distribución</h3>
+                <Link to={"/distribucion"}>
+                  <div className="icono">
+                    <FontAwesomeIcon icon={faTruckFast} className="icon" />
+                  </div>
+                </Link>
+                <h6 className="text-white">DISTRIBUCIÓN</h6>
               </div>
             </Col>
             <Col sm={12} md={3} lg={2}>
               <div className="cardInfo w-100 p-2">
-                <div className="icono">
-                  <FontAwesomeIcon icon={faHandshake} className="icon" />
-                </div>
-                <h3 className="text-white">Contacto</h3>
+                <Link to={"contacto"}>
+                  <div className="icono">
+                    <FontAwesomeIcon
+                      icon={faEnvelopeOpenText}
+                      className="icon"
+                    />
+                  </div>
+                </Link>
+                <h6 className="text-white">CONTACTO</h6>
               </div>
             </Col>
-            
           </Row>
         </div>
       </section>
@@ -93,7 +113,7 @@ const Home = () => {
               <Col sm={12} md={4} lg={4}>
                 <div className="cardInfoUno w-100 p-2">
                   <div className="icono">
-                    <FontAwesomeIcon icon={faHandshake} className="icon" />
+                    <FontAwesomeIcon icon={faHandshake} className="iconUno" />
                   </div>
                   <h3>Compromiso</h3>
                   <p className="m-3">

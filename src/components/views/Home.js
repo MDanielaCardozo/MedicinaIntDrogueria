@@ -153,17 +153,13 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* <article>
-        <div>
+      <article>
+        <div className="container py-5">
           <Row>
-            <Col sm={12} md={6} lg={6} className="g-0">
-              <div className="bgMision d-flex justify-content-center align-items-center">
-                <h3 className="text-white fs-1">Misión</h3>
-              </div>
-            </Col>
-            <Col sm={12} md={6} lg={6} className="g-0">
+            <Col sm={12} md={6} lg={6} className="">
               <div className="cardMision">
                 <div className="cardContent">
+                  <h3 className="cardTitle">MISIÓN</h3>
                   <p className="card-body">
                     COMO ORGANIZACIÓN NOS INTERESA GENERAR UN AMBIENTE CALIDO
                     PARA LA OPERACIÓN DE LOS PROCESOS QUE SE CARACTERICE POR LA
@@ -176,8 +172,23 @@ const Home = () => {
                 </div>
               </div>
             </Col>
+            <Col sm={12} md={6} lg={6} className="text-center">
+              <div className="cardMision">
+                <div className="cardContent">
+                  <h3 className="cardTitle">VISIÓN</h3>
+                  <p className="card-body">
+                  INTENTAMOS GENERAR UN AMBIENTE DE RESPETO MUTUO, DE DIALOGO
+                    CORDIAL, INCENTIVANDO EL COMPROMISO , LA PARTICIPACION Y
+                    CREANDO UN ESPACIO DE REALIZACION PERSONAL PARA QUIENES LA
+                    CONFORMAN. PROCURAMOS HACER DE NUESTRA ACTIVIDAD UN NEGOCIO
+                    RENTABLE QUE NOS PERMITA SEGUIR CRECIENDO PQ CREEMOS QUE DE
+                    ESTA MANERA CONTRUBUIMOS AL DESARROLLO DEL SISTEMA DE SALUD.
+                  </p>
+                </div>
+              </div>
+            </Col>
           </Row>
-          <Row>
+          {/* <Row>
             <Col sm={12} md={6} lg={6} className="g-0">
               <div className="cardVision">
                 <div className="cardContent">
@@ -198,9 +209,9 @@ const Home = () => {
                 <h3 className="text-white fs-1">Visión</h3>
               </div>
             </Col>
-          </Row>
+          </Row> */}
         </div>
-      </article> */}
+      </article>
     </main>
   );
 };

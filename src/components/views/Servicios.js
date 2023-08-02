@@ -40,11 +40,11 @@ const Servicios = () => {
                   <FontAwesomeIcon icon={faPills} className="iconoNos" />
                 </div>
                 <h3>Medicamentos</h3>
-                <p className="m-3">
+                {/* <p className="m-3">
                   Con las nuevas ideas, pero manteniendo los mismos ideales.
                   Estamos profundamente comprometidos con la innovación y el
                   crecimiento permanente.
-                </p>
+                </p> */}
               </div>
             </Col>
             <Col sm={12} md={6} lg={6}>
@@ -53,11 +53,11 @@ const Servicios = () => {
                   <FontAwesomeIcon icon={faSyringe} className="iconoNos" />
                 </div>
                 <h3>Descartables en general</h3>
-                <p className="m-3">
+                {/* <p className="m-3">
                   Nos adaptamos a las diversas circunstancias que se nos
                   presentan dando respuestas ágiles, porque tomamos los cambios
                   como nuevos desafíos por alcanzar.
-                </p>
+                </p> */}
               </div>
             </Col>
           </Row>
@@ -68,11 +68,11 @@ const Servicios = () => {
                   <FontAwesomeIcon icon={faCrutch} className="iconoNos" />
                 </div>
                 <h3>Nutrición Enteral</h3>
-                <p className="m-3">
+                {/* <p className="m-3">
                   Constante para llegar más lejos siempre con nuestros clientes
                   y proovedores, con el objetivo de ir mejorando continuamente y
                   ser siempre los primeros.
-                </p>
+                </p> */}
               </div>
             </Col>
             <Col sm={12} md={6} lg={6}>
@@ -81,11 +81,11 @@ const Servicios = () => {
                   <FontAwesomeIcon icon={faVial} className="iconoNos" />
                 </div>
                 <h3>Hemoderivados</h3>
-                <p className="m-3">
+                {/* <p className="m-3">
                   Constante para llegar más lejos siempre con nuestros clientes
                   y proovedores, con el objetivo de ir mejorando continuamente y
                   ser siempre los primeros.
-                </p>
+                </p> */}
               </div>
             </Col>
           </Row>

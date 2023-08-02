@@ -14,9 +14,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
-
   useEffect(() => {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -156,15 +155,15 @@ const Home = () => {
       <article>
         <div className="container py-5">
           <Row>
-            <Col sm={12} md={6} lg={6} className="">
-              <div className="cardMision">
+            <Col sm={12} md={6} lg={6} className="text-center">
+              <div className="cardMision mb-3">
                 <div className="cardContent">
                   <h3 className="cardTitle">MISIÓN</h3>
-                  <p className="card-body">
+                  <p className="card-body mt-4">
                     COMO ORGANIZACIÓN NOS INTERESA GENERAR UN AMBIENTE CALIDO
                     PARA LA OPERACIÓN DE LOS PROCESOS QUE SE CARACTERICE POR LA
                     COMUNICACIÓN , LA CONFIANZA, LA HONESTIDAD, LA
-                    RESPONSABILIDAD PERSONALY EL RESPETO, CONVENCIDOS QUE
+                    RESPONSABILIDAD PERSONAL Y EL RESPETO, CONVENCIDOS QUE
                     CUALQUIER COMPORTAMIENTO QUE SE DERIVE DE ESTOS VALORES
                     CONTRIBUIRA AL CLIMA IDEAL PARA EL CRECIMIENTO PERSONAL DE
                     CADA INTEGRANTE DE LA EMPRESA.
@@ -173,43 +172,22 @@ const Home = () => {
               </div>
             </Col>
             <Col sm={12} md={6} lg={6} className="text-center">
-              <div className="cardMision">
+              <div className="cardMision mb-3">
                 <div className="cardContent">
                   <h3 className="cardTitle">VISIÓN</h3>
-                  <p className="card-body">
-                  INTENTAMOS GENERAR UN AMBIENTE DE RESPETO MUTUO, DE DIALOGO
+                  <p className="card-body mt-4">
+                    INTENTAMOS GENERAR UN AMBIENTE DE RESPETO MUTUO, DE DIALOGO
                     CORDIAL, INCENTIVANDO EL COMPROMISO , LA PARTICIPACION Y
                     CREANDO UN ESPACIO DE REALIZACION PERSONAL PARA QUIENES LA
                     CONFORMAN. PROCURAMOS HACER DE NUESTRA ACTIVIDAD UN NEGOCIO
-                    RENTABLE QUE NOS PERMITA SEGUIR CRECIENDO PQ CREEMOS QUE DE
-                    ESTA MANERA CONTRUBUIMOS AL DESARROLLO DEL SISTEMA DE SALUD.
+                    RENTABLE QUE NOS PERMITA SEGUIR CRECIENDO PORQUE CREEMOS QUE
+                    DE ESTA MANERA CONTRUBUIMOS AL DESARROLLO DEL SISTEMA DE
+                    SALUD.
                   </p>
                 </div>
               </div>
             </Col>
           </Row>
-          {/* <Row>
-            <Col sm={12} md={6} lg={6} className="g-0">
-              <div className="cardVision">
-                <div className="cardContent">
-                  <p className="card-body">
-                    INTENTAMOS GENERAR UN AMBIENTE DE RESPETO MUTUO, DE DIALOGO
-                    CORDIAL, INCENTIVANDO EL COMPROMISO , LA PARTICIPACION Y
-                    CREANDO UN ESPACIO DE REALIZACION PERSONAL PARA QUIENES LA
-                    CONFORMAN. PROCURAMOS HACER DE NUESTRA ACTIVIDAD UN NEGOCIO
-                    RENTABLE QUE NOS PERMITA SEGUIR CRECIENDO PQ CREEMOS QUE DE
-                    ESTA MANERA CONTRUBUIMOS AL DESARROLLO DEL SISTEMA DE SALUD
-                  
-                  </p>
-                </div>
-              </div>
-            </Col>
-            <Col sm={12} md={6} lg={6} className="g-0">
-              <div className="bgMision d-flex justify-content-center align-items-center">
-                <h3 className="text-white fs-1">Visión</h3>
-              </div>
-            </Col>
-          </Row> */}
         </div>
       </article>
     </main>

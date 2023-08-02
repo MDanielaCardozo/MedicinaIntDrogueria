@@ -211,7 +211,13 @@
     hsla(236, 96%, 32%, 0.842),
     hsla(236, 92%, 30%, 0.945)
   );
+  /* transform: translateY(70%);
+  transition: 500ms ease; */
 }
+
+
+
+
 
 .cardTitle {
   position: relative;
@@ -223,9 +229,22 @@
   position: absolute;
   height: 4px;
   left: calc(var(--padding) * -1);
-  bottom: 0;
+  bottom: -3px;
   width: calc(100% + var(--padding));
   background: var(--clr-accent-400);
+  
+  transform-origin: left;
+  transition: transform 700ms ease;
+}
+
+.cardMision:hover .cardTitle::after {
+  transform: scaleX(1);
+}
+
+
+
+.card-body {
+  color: rgba(255, 255, 255, 0.801) !important;
 }
 
 .cardMision {
@@ -252,4 +271,37 @@
   background-color: hsla(236, 73%, 80%, 0.932);
   width: 100%;
   height: 584px;
+}
+
+@media (hover) {
+  .cardContent {
+    transform: translateY(70%);
+    transition: 500ms ease;
+  }
+
+  .cardMision:hover .cardContent,
+  .cardMision:focus-within .cardContent {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .cardMision:focus-within .cardContent {
+    transition-duration: 0ms;
+  }
+
+  .cardContent > * :not(.cardTitle){
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+
+  .cardMision:hover .cardContent * :not(.cardTitle) {
+    opacity: 1 !important;
+    transition-delay: 900ms !important;
+  }
+
+  .cardTitle::after{
+    transform: scaleX(0);
+  }
+
+  
 }

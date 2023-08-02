@@ -35,9 +35,9 @@
     transition: all 1s ease;
   } */
 
-  @media all and (min-width: 200px) and (max-width: 367px) {
+  @media all and (min-width: 200px) and (max-width: 445px) {
     .logoImg {
-      width: 220px;
+      width: 224px;
     }
   }
 

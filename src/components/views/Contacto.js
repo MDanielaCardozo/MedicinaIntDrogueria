@@ -36,7 +36,7 @@ const Contacto = () => {
               </Form.Group>
             </div>
           </Col>
-          <Col lg={6} md={6} sm={12} className=" py-5 textCarousel">
+          <Col lg={6} md={6} sm={12} className=" py-5 textoC">
             <div className="d-flex">
               <FontAwesomeIcon
                 icon={faLocationDot}

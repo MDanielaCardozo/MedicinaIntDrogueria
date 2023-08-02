@@ -33,9 +33,9 @@ const Servicios = () => {
         <div className="p-3">
           <h2>Nuestra empresa comercializa</h2>
           <hr />
-          <Row className="w-100 mt-5 mb-3">
+          <Row className="w-100 mt-5">
             <Col sm={12} md={6} lg={6}>
-              <div className="cardInfoNosotros w-100 p-2">
+              <div className="cardInfoNosotros w-100 p-2 mb-3">
                 <div className="icono">
                   <FontAwesomeIcon icon={faPills} className="iconoNos" />
                 </div>
@@ -48,7 +48,7 @@ const Servicios = () => {
               </div>
             </Col>
             <Col sm={12} md={6} lg={6}>
-              <div className="cardInfoNosotros w-100 p-2">
+              <div className="cardInfoNosotros w-100 p-2 mb-3">
                 <div className="icono">
                   <FontAwesomeIcon icon={faSyringe} className="iconoNos" />
                 </div>
@@ -63,7 +63,7 @@ const Servicios = () => {
           </Row>
           <Row className="w-100 mb-5">
             <Col sm={12} md={6} lg={6}>
-              <div className="cardInfoNosotros w-100 p-2">
+              <div className="cardInfoNosotros w-100 p-2 mb-3">
                 <div className="icono">
                   <FontAwesomeIcon icon={faCrutch} className="iconoNos" />
                 </div>
@@ -76,7 +76,7 @@ const Servicios = () => {
               </div>
             </Col>
             <Col sm={12} md={6} lg={6}>
-              <div className="cardInfoNosotros w-100 p-2">
+              <div className="cardInfoNosotros w-100 p-2 mb-3">
                 <div className="icono">
                   <FontAwesomeIcon icon={faVial} className="iconoNos" />
                 </div>

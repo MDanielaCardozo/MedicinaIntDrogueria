@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import "../views/Distribucion.css";
 import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,6 +11,11 @@ import {
 import Logistica from "../../img/pasos-trazabilidad.png";
 
 const Distribucion = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+
   return (
     <div className="bgSection">
       <section className="portadaDist d-flex justify-content-end align-items-end p-3">
@@ -38,7 +44,7 @@ const Distribucion = () => {
             <Col sm={12} md={4} lg={4}>
               <div className="cardInfoUno w-100 p-2">
                 <div className="icono">
-                  <FontAwesomeIcon icon={faTruckArrowRight} className="icon" />
+                  <FontAwesomeIcon icon={faTruckArrowRight} className="iconUno" />
                 </div>
                 <h3>Logistica</h3>
                 <p className="m-3">

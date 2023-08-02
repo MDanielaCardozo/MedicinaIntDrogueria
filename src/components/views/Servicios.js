@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import "../views/Servicios.css";
 import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,6 +11,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Servicios = () => {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+
   return (
     <div className="bgSection">
       <section className="portadaServicios d-flex justify-content-end align-items-end p-3">

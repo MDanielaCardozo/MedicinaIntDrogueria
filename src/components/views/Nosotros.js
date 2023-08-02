@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../views/Nosotros.css";
 import { Row, Col } from "react-bootstrap";
+import Equipo from "../../img/equipoMedInt-removebg-preview.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Nosotros = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bgSection">
       <section className="portadaNosotros d-flex justify-content-end align-items-end p-3">
@@ -51,54 +58,70 @@ const Nosotros = () => {
           </div>
         </div>
       </article>
-      <article className="  ">
-        <div className="">
+      <section className="container">
+        <div className="p-3">
+          <h2>Nuestro equipo</h2>
+          <hr />
           <Row>
-            <Col sm={12} md={6} lg={6} className="g-0">
-              <div className="bgMision d-flex justify-content-center align-items-center">
-                <h3 className="text-white fs-1">Misión</h3>
-              </div>
-            </Col>
-            <Col sm={12} md={6} lg={6} className="g-0">
-              <div className="cardMision">
-                <div className="cardContent">
-                  <p className="card-body">
-                    COMO ORGANIZACIÓN NOS INTERESA GENERAR UN AMBIENTE CALIDO
-                    PARA LA OPERACIÓN DE LOS PROCESOS QUE SE CARACTERICE POR LA
-                    COMUNICACIÓN , LA CONFIANZA, LA HONESTIDAD, LA
-                    RESPONSABILIDAD PERSONALY EL RESPETO, CONVENCIDOS QUE
-                    CUALQUIER COMPORTAMIENTO QUE SE DERIVE DE ESTOS VALORES
-                    CONTRIBUIRA AL CLIMA IDEAL PARA EL CRECIMIENTO PERSONAL DE
-                    CADA INTEGRANTE DE LA EMPRESA.
-                  </p>
+            <Col sm={12} md={3} lg={3}>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <div className="equipo">
+                  <div className="image">
+                    <img src={Equipo} alt="equipo" className="imgEquipo" />
+                    <div className="content">
+                    <FontAwesomeIcon icon={faLinkedin} className="text-white fs-1"/>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </a>
+              <h4 className="text-center text-black-50 mt-2">Juan Silveti</h4>
+              <h5 className="text-center text-black-50">Presidente</h5>
             </Col>
-          </Row>
-          <Row>
-            <Col sm={12} md={6} lg={6} className="g-0">
-              <div className="cardVision">
-                <div className="cardContent">
-                  <p className="card-body">
-                    INTENTAMOS GENERAR UN AMBIENTE DE RESPETO MUTUO, DE DIALOGO
-                    CORDIAL, INCENTIVANDO EL COMPROMISO , LA PARTICIPACION Y
-                    CREANDO UN ESPACIO DE REALIZACION PERSONAL PARA QUIENES LA
-                    CONFORMAN. PROCURAMOS HACER DE NUESTRA ACTIVIDAD UN NEGOCIO
-                    RENTABLE QUE NOS PERMITA SEGUIR CRECIENDO PQ CREEMOS QUE DE
-                    ESTA MANERA CONTRUBUIMOS AL DESARROLLO DEL SISTEMA DE SALUD
-                  
-                  </p>
+            <Col sm={12} md={3} lg={3}>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <div className="equipo">
+                  <div className="image">
+                    <img src={Equipo} alt="equipo" className="imgEquipo" />
+                    <div className="content">
+                      <FontAwesomeIcon icon={faLinkedin} className="text-white fs-1"/>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </a>
+              <h4 className="text-center text-black-50 mt-2">Juan Silveti</h4>
+              <h5 className="text-center text-black-50">Gerente general</h5>
             </Col>
-            <Col sm={12} md={6} lg={6} className="g-0">
-              <div className="bgMision d-flex justify-content-center align-items-center">
-                <h3 className="text-white fs-1">Visión</h3>
-              </div>
+            <Col sm={12} md={3} lg={3}>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <div className="equipo">
+                  <div className="image">
+                    <img src={Equipo} alt="equipo" className="imgEquipo" />
+                    <div className="content">
+                    <FontAwesomeIcon icon={faLinkedin} className="text-white fs-1"/>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <h4 className="text-center text-black-50 mt-2">Juan Silveti</h4>
+              <h5 className="text-center text-black-50">Gerente financiero</h5>
+            </Col>
+            <Col sm={12} md={3} lg={3}>
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <div className="equipo">
+                  <div className="image">
+                    <img src={Equipo} alt="equipo" className="imgEquipo" />
+                    <div className="content">
+                    <FontAwesomeIcon icon={faLinkedin} className="text-white fs-1"/>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <h4 className="text-center text-black-50 mt-2">Juan Silveti</h4>
+              <h5 className="text-center text-black-50">Supervisor de depósito</h5>
             </Col>
           </Row>
         </div>
-      </article>
+      </section>
     </div>
   );
 };

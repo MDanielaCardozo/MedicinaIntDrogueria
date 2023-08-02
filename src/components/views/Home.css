@@ -91,9 +91,9 @@
   padding: 21px;
 }
 
-.containerSect h2 {
-  font-weight: 600;
-  color: #004aad;
+ h2 {
+  font-weight: 600 !important;
+  color: #004aad !important;
 }
 
 .containerSect {

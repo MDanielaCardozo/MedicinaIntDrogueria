@@ -1,23 +1,20 @@
-import React from 'react';
-import { useEffect } from 'react';
+import React from "react";
+import { useEffect } from "react";
+import "../views/Contacto.css";
 
 const Contacto = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-    useEffect(() => {
-        window.scrollTo(0,0);
-      }, []);
-
-    return (
-        <div className='py-5'>
-            
-            <article className='quienes py-5'>
-                <div className='container py-5'>
-                    <h2>Contacto</h2>
-                    <hr />
-                </div>
-            </article>
-        </div>
-    );
+  return (
+    <div className="bgSection">
+      <section className="contacto container">
+        <h2>Contacto</h2>
+        <hr />
+      </section>
+    </div>
+  );
 };
 
 export default Contacto;

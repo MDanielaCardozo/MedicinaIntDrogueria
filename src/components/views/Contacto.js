@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import MapaGoogle from "./MapaGoogle";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Contacto = () => {
   useEffect(() => {
@@ -54,6 +55,10 @@ const Contacto = () => {
             <div className="d-flex">
               <FontAwesomeIcon icon={faPhone} className="iconoContacto mx-4" />
               <p>381-4346913 <br/>381-4346350<br/>381-4349220</p>
+            </div>
+            <div className="d-flex">
+              <FontAwesomeIcon icon={faWhatsapp} className="iconoContacto mx-4" />
+              <p>+54 9 381 203-3691</p>
             </div>
           </Col>
         </Row>

@@ -301,3 +301,24 @@
     transform: scaleX(0);
   }
 }
+
+.iconWhats {
+  position: fixed;
+  width: 55px;
+  height: auto;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+  text-align: center;
+  color: rgba(17, 207, 17, 0.89);
+  background: #035f1ab0;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.5);
+}
+
+.iconWhats:hover {
+  text-decoration: none;
+  color: rgba(17, 207, 17, 0.801);
+  background: #ffffffb9;
+}

@@ -12,11 +12,12 @@ import {
   faShuffle,
   faTruckFast,
 } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <main className="bgSection">
@@ -190,6 +191,13 @@ const Home = () => {
           </Row>
         </div>
       </article>
+      <aside className="container">
+        <a href="https://api.whatsapp.com/send?phone=5493812033691" target="_blank" rel="noopener noreferrer" className="iconWhats">
+          <div >
+          <FontAwesomeIcon icon={faWhatsapp} className=""/>
+          </div>
+        </a>
+      </aside>
     </main>
   );
 };

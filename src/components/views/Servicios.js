@@ -9,6 +9,7 @@ import {
   faSyringe,
   faVial,
 } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Servicios = () => {
 
@@ -91,6 +92,13 @@ const Servicios = () => {
           </Row>
         </div>
       </section>
+      <aside className="container">
+        <a href="https://api.whatsapp.com/send?phone=5493812033691" target="_blank" rel="noopener noreferrer" className="iconWhats">
+          <div >
+          <FontAwesomeIcon icon={faWhatsapp} className=""/>
+          </div>
+        </a>
+      </aside>
     </div>
   );
 };

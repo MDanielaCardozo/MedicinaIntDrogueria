@@ -54,22 +54,42 @@ const Contacto = () => {
             </div>
             <div className="d-flex">
               <FontAwesomeIcon icon={faPhone} className="iconoContacto mx-4" />
-              <p>381-4346913 <br/>381-4346350<br/>381-4349220</p>
+              <p>
+                381-4346913 <br />
+                381-4346350
+                <br />
+                381-4349220
+              </p>
             </div>
             <div className="d-flex">
-              <FontAwesomeIcon icon={faWhatsapp} className="iconoContacto mx-4" />
+              <FontAwesomeIcon
+                icon={faWhatsapp}
+                className="iconoContacto mx-4"
+              />
               <p>+54 9 381 203-3691</p>
             </div>
           </Col>
         </Row>
       </section>
-      <section className='container py-5'>
-                <div className='mb-5'>
-                <h2>Encontranos en Google Maps</h2>
-                <hr />
-                </div>
-                <MapaGoogle></MapaGoogle>
-            </section>
+      <section className="container py-5">
+        <div className="mb-5">
+          <h2>Encontranos en Google Maps</h2>
+          <hr />
+        </div>
+        <MapaGoogle></MapaGoogle>
+      </section>
+      <aside className="container">
+        <a
+          href="https://api.whatsapp.com/send?phone=5493812033691"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="iconWhats"
+        >
+          <div>
+            <FontAwesomeIcon icon={faWhatsapp} className="" />
+          </div>
+        </a>
+      </aside>
     </div>
   );
 };

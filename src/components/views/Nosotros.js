@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import "../views/Nosotros.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 // import { Row, Col } from "react-bootstrap";
 // import Equipo from "../../img/equipoMedInt-removebg-preview.png";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -122,6 +124,13 @@ const Nosotros = () => {
           </Row>
         </div>
       </section> */}
+      <aside className="container">
+        <a href="https://api.whatsapp.com/send?phone=5493812033691" target="_blank" rel="noopener noreferrer" className="iconWhats">
+          <div >
+          <FontAwesomeIcon icon={faWhatsapp} className=""/>
+          </div>
+        </a>
+      </aside>
     </div>
   );
 };

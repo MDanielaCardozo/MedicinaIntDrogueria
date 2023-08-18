@@ -8,6 +8,7 @@ import {
   faCartFlatbed,
   faTruckArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import Logistica from "../../img/pasos-trazabilidad.png";
 
 const Distribucion = () => {
@@ -90,6 +91,13 @@ const Distribucion = () => {
         </div>
       </article>
       <section className="py-5"></section>
+      <aside className="container">
+        <a href="https://api.whatsapp.com/send?phone=5493812033691" target="_blank" rel="noopener noreferrer" className="iconWhats">
+          <div >
+          <FontAwesomeIcon icon={faWhatsapp} className=""/>
+          </div>
+        </a>
+      </aside>
     </div>
   );
 };

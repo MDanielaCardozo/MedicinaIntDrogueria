@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "../views/Nosotros.css";
-import { Row, Col } from "react-bootstrap";
-import Equipo from "../../img/equipoMedInt-removebg-preview.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import { Row, Col } from "react-bootstrap";
+// import Equipo from "../../img/equipoMedInt-removebg-preview.png";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Nosotros = () => {
   useEffect(() => {
@@ -58,7 +58,7 @@ const Nosotros = () => {
           </div>
         </div>
       </article>
-      <section className="container">
+      {/* <section className="container">
         <div className="p-3">
           <h2>Nuestro equipo</h2>
           <hr />
@@ -121,7 +121,7 @@ const Nosotros = () => {
             </Col>
           </Row>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

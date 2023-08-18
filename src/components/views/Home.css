@@ -241,8 +241,6 @@
   transform: scaleX(1);
 }
 
-
-
 .card-body {
   color: rgba(255, 255, 255, 0.801) !important;
 }
@@ -302,6 +300,4 @@
   .cardTitle::after{
     transform: scaleX(0);
   }
-
-  
 }

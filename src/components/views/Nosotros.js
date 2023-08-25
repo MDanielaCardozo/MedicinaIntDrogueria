@@ -31,31 +31,27 @@ const Nosotros = () => {
             <h2>Nosotros</h2>
             <hr />
             <p className="p-3">
-              Droguería SILVETI nace como un emprendimiento familiar que
-              apostaba al crecimiento en el año 80 como Quimica Textil. En el
-              año 1991 Nace Medicina Integral srl convertiendoce en una Pyme
-              sólida y bien posicionada.
-              <br /> En sus comienzos la empresa contaba con dos integrantes y
-              el dueño. Hoy conformamos MEDICINA INTEGRAL SRL un equipo de más
-              de 25 personas.
-              <br /> Trabajamos para lograr un posicionamiento de referencia en
-              el sector al que pertenecemos y afirmamos nuestro deseo de seguir
-              creciendo convencidos que estamos transitando ese camino y por
-              sobre todas las cosas pensamos que somos capaces de lograrlo
-              gracias a que nuestro mayor capital lo constituye el equipo de
-              personas que conforman.
-              <br /> Droguería MEDICINA INTEGRAL SRL se encuentra ubicada en la
-              calle Av. Las America 1435, Tucumán Capital. Dicho inmueble es
-              propiedad de la misma y ocupa una superficie de más de 700 mts
-              cuadrados.
+              Nuestra droguería, tiene como antecedente a QUIMICA TEXTIL que era
+              un emprendimiento familiar que apostaba a su crecimiento en los
+              años 80. En el año 1991 nace MEDICINA INTEGRAL SRL, convirtiéndose
+              en una Pyme sólida y bien posicionada.
+              <br />
+              En sus comienzos, la empresa contaba con dos integrantes y su
+              dueño. Hoy conformamos un equipo de más de 20 personas, trabajando
+              para lograr un posicionamiento de referencia en el sector al que
+              pertenecemos, y afirmamos nuestro deseo de seguir creciendo,
+              convencidos que transitamos este camino siendo capaces de lograrlo
+              gracias a nuestro mayor capital, que consideramos lo constituye el
+              equipo de personas que conforman esta empresa.
+              <br /> Droguería Medicina Integral SRL, se encuentra ubicada en
+              calle Av. América 1435, en Tucumán capital. Dicho inmueble es
+              propiedad de la misma y cuenta con una superficie de 700 m2.
               <br /> El lugar se ha distribuido según funcionalidad de
-              operatoria y necesidades administrativas. La superficie destinada
-              a Depósito de mercadería abarca un total de aproximadamente 500
-              mts cuadrados.
-              <br /> Se encuentra entre los proyectos ampliar el espacio físico
-              de almacenamiento a fin de seguir mejorando en lo que respecta a
-              las tareas de logística y también la de incursionar en nuevas
-              provincias.
+              operatoria y necesidades administrativas. Se encuentra en proceso,
+              la ampliación del espacio físico de almacenamiento a fin de seguir
+              mejorando, no solo para tareas de logística y para mejorar el
+              servicio a nuestros clientes, sino también para poder incursionar
+              en otras provincias.
             </p>
           </div>
         </div>
@@ -125,9 +121,14 @@ const Nosotros = () => {
         </div>
       </section> */}
       <aside className="container">
-        <a href="https://api.whatsapp.com/send?phone=5493812033691" target="_blank" rel="noopener noreferrer" className="iconWhats">
-          <div >
-          <FontAwesomeIcon icon={faWhatsapp} className=""/>
+        <a
+          href="https://api.whatsapp.com/send?phone=5493812033691"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="iconWhats"
+        >
+          <div>
+            <FontAwesomeIcon icon={faWhatsapp} className="" />
           </div>
         </a>
       </aside>

@@ -80,12 +80,12 @@ const Servicios = () => {
           <Row className="w-100 mt-5">
             <Col sm={12} md={6} lg={6}>
               <div className="cardInfoProv w-100 p-2 d-flex justify-content-center">
-                <img src={Nutricia} alt="Nutricia Bago" className="imgLab" />
+                <img src={Nutricia} alt="Nutricia Bago" className="imgLab object-fit-contain" />
               </div>
             </Col>
             <Col sm={12} md={6} lg={6}>
               <div className="cardInfoProv w-100 p-2 d-flex justify-content-center">
-                <img src={CSL} alt="CSL Behring" className="imgLab" />
+                <img src={CSL} alt="CSL Behring" className="imgLab object-fit-contain" />
               </div>
             </Col>
           </Row>

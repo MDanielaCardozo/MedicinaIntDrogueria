@@ -78,6 +78,26 @@ const Contacto = () => {
         </div>
         <MapaGoogle></MapaGoogle>
       </section>
+      <section className="container py-5">
+        <h2>Reclamos</h2>
+        <hr />
+        <div className="contactoBox my-5">
+              <Form.Group className="my-4">
+                <Form.Label>Nombre Completo*</Form.Label>
+                <Form.Control type="text" placeholder="Nombre Apellido" />
+                <Form.Label className="my-2">Email*</Form.Label>
+                <Form.Control
+                  type="text"
+                  placeholder="Ej: pilargarcia@gmail.com"
+                />
+                <Form.Label className="my-2">Mensaje*</Form.Label>
+                <Form.Control as="textarea" rows={4} />
+                <Button variant="outline-secondary" className="my-3 ms-1">
+                  Enviar
+                </Button>
+              </Form.Group>
+            </div>
+      </section>
       <aside className="container">
         <a
           href="https://api.whatsapp.com/send?phone=5493812033691"

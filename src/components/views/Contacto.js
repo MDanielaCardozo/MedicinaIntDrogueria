@@ -1,17 +1,50 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useEffect } from "react";
 import "../views/Contacto.css";
 import { Col, Form, Row, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import MapaGoogle from "./MapaGoogle";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import MapaGoogle from "./MapaGoogle";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const Contacto = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const refForm = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const EMAILJS_SERVICE = process.env.REACT_APP_EMAILJS_SERVICE;
+    const EMAILJS_TEMPLATE = process.env.REACT_APP_EMAILJS_TEMPLATE;
+    const EMAILJS_PUBLICKEY = process.env.REACT_APP_EMAILJS_PUBLICKEY;
+
+    emailjs
+      .sendForm(
+        EMAILJS_SERVICE,
+        EMAILJS_TEMPLATE,
+        refForm.current,
+        EMAILJS_PUBLICKEY
+      )
+      .then((result) => {
+        console.log(result.text);
+        refForm.current.reset();
+        Swal.fire(
+          "Mensaje enviado",
+          "El mensaje será respondido a la brevedad",
+          "success"
+        );
+      })
+      .catch((error) => {
+        console.log(error.text);
+        alert("El mensaje no pudo ser enviado");
+      });
+  };
 
   return (
     <div className="bgSection">
@@ -21,20 +54,24 @@ const Contacto = () => {
         <Row className="py-5">
           <Col lg={6} md={6} sm={12}>
             <div className="contactoBox">
-              <Form.Group className="my-4">
-                <Form.Label>Nombre Completo*</Form.Label>
-                <Form.Control type="text" placeholder="Nombre Apellido" />
-                <Form.Label className="my-2">Email*</Form.Label>
-                <Form.Control
-                  type="text"
-                  placeholder="Ej: pilargarcia@gmail.com"
-                />
-                <Form.Label className="my-2">Mensaje*</Form.Label>
-                <Form.Control as="textarea" rows={4} />
-                <Button variant="outline-secondary" className="my-3 ms-1">
-                  Enviar
-                </Button>
-              </Form.Group>
+              <Form ref={refForm} onSubmit={handleSubmit}>
+                <Form.Group className="my-4">
+                  <Form.Label>Nombre Completo*</Form.Label>
+                  <Form.Control type="text" placeholder="Nombre Apellido" name="from-name" required/>
+                  <Form.Label className="my-2">Email*</Form.Label>
+                  <Form.Control
+                    type="text"
+                    placeholder="Ej: pilargarcia@gmail.com"
+                    name="user-email"
+                    required
+                  />
+                  <Form.Label className="my-2">Mensaje*</Form.Label>
+                  <Form.Control as="textarea" rows={4} name="message" required/>
+                  <Button variant="outline-secondary" type="submit" className="my-3 ms-1">
+                    Enviar
+                  </Button>
+                </Form.Group>
+              </Form>
             </div>
           </Col>
           <Col lg={6} md={6} sm={12} className=" py-5 textoC">

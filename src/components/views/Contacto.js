@@ -9,6 +9,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import MapaGoogle from "./MapaGoogle";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import FormularioReclamos from "./FormularioReclamos";
 
 const Contacto = () => {
   useEffect(() => {
@@ -57,17 +58,31 @@ const Contacto = () => {
               <Form ref={refForm} onSubmit={handleSubmit}>
                 <Form.Group className="my-4">
                   <Form.Label>Nombre Completo*</Form.Label>
-                  <Form.Control type="text" placeholder="Nombre Apellido" name="from-name" required/>
+                  <Form.Control
+                    type="text"
+                    placeholder="Nombre Apellido"
+                    name="from_name"
+                    required
+                  />
                   <Form.Label className="my-2">Email*</Form.Label>
                   <Form.Control
                     type="text"
                     placeholder="Ej: pilargarcia@gmail.com"
-                    name="user-email"
+                    name="user_email"
                     required
                   />
                   <Form.Label className="my-2">Mensaje*</Form.Label>
-                  <Form.Control as="textarea" rows={4} name="message" required/>
-                  <Button variant="outline-secondary" type="submit" className="my-3 ms-1">
+                  <Form.Control
+                    as="textarea"
+                    rows={4}
+                    name="message"
+                    required
+                  />
+                  <Button
+                    variant="outline-secondary"
+                    type="submit"
+                    className="my-3 ms-1"
+                  >
                     Enviar
                   </Button>
                 </Form.Group>
@@ -119,21 +134,8 @@ const Contacto = () => {
         <h2>Reclamos</h2>
         <hr />
         <div className="contactoBox my-5">
-              <Form.Group className="my-4">
-                <Form.Label>Nombre Completo*</Form.Label>
-                <Form.Control type="text" placeholder="Nombre Apellido" />
-                <Form.Label className="my-2">Email*</Form.Label>
-                <Form.Control
-                  type="text"
-                  placeholder="Ej: pilargarcia@gmail.com"
-                />
-                <Form.Label className="my-2">Mensaje*</Form.Label>
-                <Form.Control as="textarea" rows={4} />
-                <Button variant="outline-secondary" className="my-3 ms-1">
-                  Enviar
-                </Button>
-              </Form.Group>
-            </div>
+          <FormularioReclamos></FormularioReclamos>
+        </div>
       </section>
       <aside className="container">
         <a

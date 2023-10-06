@@ -3,7 +3,11 @@ import { useEffect } from "react";
 import "../views/Contacto.css";
 import { Col, Form, Row, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLocationDot,
+  faMapLocationDot,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import MapaGoogle from "./MapaGoogle";
@@ -119,6 +123,24 @@ const Contacto = () => {
                 className="iconoContacto mx-4"
               />
               <p>+54 9 381 203-3691</p>
+            </div>
+            <div className="d-flex text-center">
+              <FontAwesomeIcon
+                icon={faMapLocationDot}
+                className="iconoContacto mx-4"
+              />
+              <h6>Trabajamos en:</h6>
+            </div>
+            <div className="d-flex ms-5">
+              <ul>
+                <li>Jujuy</li>
+                <li>Salta</li>
+                <li>Catamarca</li>
+                <li>Santiago del estero</li>
+                <li>Tucumán</li>
+                <li>Cordoba</li>
+                <li>La Rioja</li>
+              </ul>
             </div>
           </Col>
         </Row>

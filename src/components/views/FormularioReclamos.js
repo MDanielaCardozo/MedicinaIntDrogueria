@@ -48,6 +48,8 @@ const FormularioReclamos = () => {
                 />
                 <Form.Label className="my-2">Cantidad*</Form.Label>
                 <Form.Control type="number" placeholder="1" name='from-numbers'/>
+                <Form.Label className="my-2">Lote*</Form.Label>
+                <Form.Control type="number" placeholder="1111" name='from-lote'/>
                 <Form.Label className="my-2">Motivo*</Form.Label>
                 <Form.Control as="textarea" rows={4} name='from-complain'/>
                 <Form.Label className="my-2">Datos de contacto*</Form.Label>

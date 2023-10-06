@@ -7,7 +7,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import Logo from "../../img/MedIntFooter.png";
+import Logo from "../../img/logmedint.png";
 import "../common/Footer.css";
 
 const Footer = () => {
@@ -26,7 +26,7 @@ const Footer = () => {
                   src={Logo}
                   // width="100%"
                   height="auto"
-                  className=" logoFooter w-100"
+                  className=" logoFooter w-100 my-3"
                 />
               </Link>
             </MDBCol>

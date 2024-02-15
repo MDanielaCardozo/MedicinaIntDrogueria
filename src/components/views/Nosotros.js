@@ -31,27 +31,27 @@ const Nosotros = () => {
             <h2>Nosotros</h2>
             <hr />
             <p className="p-3">
-              Nuestra droguería, tiene como antecedente a QUIMICA TEXTIL que era
-              un emprendimiento familiar que apostaba a su crecimiento en los
-              años 80. En el año 1991 nace MEDICINA INTEGRAL SRL, convirtiéndose
-              en una Pyme sólida y bien posicionada.
+              Nuestra droguería tiene como antecedente a Química Textil, un
+              emprendimiento familiar que nace en los años 80 en San Miguel de
+              Tucumán, con objetivo de comercializar medicamentos y productos
+              descartables en general. En el año 1991 como una continuación de
+              esta, nace Medicina Integral SRL, formada en un principio por su
+              dueño Ricardo E. Silveti y dos integrantes más. En aquel momento
+              se buscó ampliar la variedad de productos disponibles para la
+              venta y extender la distribución de los mismos a otras provincias.
+              Poco a poco ante la necesidad y apostando al crecimiento constante
+              se fue incorporando más personal y realizando inversiones para
+              modernizar las instalaciones.
               <br />
-              En sus comienzos, la empresa contaba con dos integrantes y su
-              dueño. Hoy conformamos un equipo de más de 20 personas, trabajando
-              para lograr un posicionamiento de referencia en el sector al que
-              pertenecemos, y afirmamos nuestro deseo de seguir creciendo,
-              convencidos que transitamos este camino siendo capaces de lograrlo
-              gracias a nuestro mayor capital, que consideramos lo constituye el
-              equipo de personas que conforman esta empresa.
-              <br /> Droguería Medicina Integral SRL, se encuentra ubicada en
-              calle Av. América 1435, en Tucumán capital. Dicho inmueble es
-              propiedad de la misma y cuenta con una superficie de 700 m2.
-              <br /> El lugar se ha distribuido según funcionalidad de
-              operatoria y necesidades administrativas. Se encuentra en proceso,
-              la ampliación del espacio físico de almacenamiento a fin de seguir
-              mejorando, no solo para tareas de logística y para mejorar el
-              servicio a nuestros clientes, sino también para poder incursionar
-              en otras provincias.
+              Actualmente contamos con un equipo de más de 20 personas
+              trabajando para ser una empresa de referencia en el sector al que
+              pertenecemos. Droguería Medicina Integral SRL se encuentra ubicada
+              en calle Av. América 1435. Cuenta con una locación propia de
+              700m2, distribuidos según su funcionalidad operativa y sus
+              necesidades administrativas. Además se encuentra en proceso de
+              ampliación del espacio físico para mejorar la capacidad de
+              almacenamiento, optimizar nuestros canales de distribución y
+              ofrecer un servicio de calidad a nuestros clientes.
             </p>
           </div>
         </div>

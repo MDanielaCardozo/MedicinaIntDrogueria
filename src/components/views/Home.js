@@ -161,13 +161,10 @@ const Home = () => {
                 <div className="cardContent">
                   <h3 className="cardTitle">MISIÓN</h3>
                   <p className="card-body mt-4">
-                    COMO ORGANIZACIÓN NOS INTERESA GENERAR UN AMBIENTE CALIDO
-                    PARA LA OPERACIÓN DE LOS PROCESOS QUE SE CARACTERICE POR LA
-                    COMUNICACIÓN , LA CONFIANZA, LA HONESTIDAD, LA
-                    RESPONSABILIDAD PERSONAL Y EL RESPETO, CONVENCIDOS QUE
-                    CUALQUIER COMPORTAMIENTO QUE SE DERIVE DE ESTOS VALORES
-                    CONTRIBUIRA AL CLIMA IDEAL PARA EL CRECIMIENTO PERSONAL DE
-                    CADA INTEGRANTE DE LA EMPRESA.
+                    Contribuir al bienestar de la sociedad en general y de las
+                    personas en particular, abasteciendo a las instituciones de
+                    salud del sector público y privado de medicamentos y
+                    productos médicos de máxima calidad.
                   </p>
                 </div>
               </div>
@@ -177,13 +174,10 @@ const Home = () => {
                 <div className="cardContent">
                   <h3 className="cardTitle">VISIÓN</h3>
                   <p className="card-body mt-4">
-                    INTENTAMOS GENERAR UN AMBIENTE DE RESPETO MUTUO, DE DIALOGO
-                    CORDIAL, INCENTIVANDO EL COMPROMISO , LA PARTICIPACION Y
-                    CREANDO UN ESPACIO DE REALIZACION PERSONAL PARA QUIENES LA
-                    CONFORMAN. PROCURAMOS HACER DE NUESTRA ACTIVIDAD UN NEGOCIO
-                    RENTABLE QUE NOS PERMITA SEGUIR CRECIENDO PORQUE CREEMOS QUE
-                    DE ESTA MANERA CONTRIBUIMOS AL DESARROLLO DEL SISTEMA DE
-                    SALUD.
+                    Ser una empresa reconocida como pionera en la venta de
+                    insumos medicinales en la provincia, por parte de sus
+                    clientes y de los sectores de interés relacionados con la
+                    actividad de la droguería.
                   </p>
                 </div>
               </div>
@@ -192,9 +186,14 @@ const Home = () => {
         </div>
       </article>
       <aside className="container">
-        <a href="https://api.whatsapp.com/send?phone=5493812033691" target="_blank" rel="noopener noreferrer" className="iconWhats">
-          <div >
-          <FontAwesomeIcon icon={faWhatsapp} className=""/>
+        <a
+          href="https://api.whatsapp.com/send?phone=5493812033691"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="iconWhats"
+        >
+          <div>
+            <FontAwesomeIcon icon={faWhatsapp} className="" />
           </div>
         </a>
       </aside>
